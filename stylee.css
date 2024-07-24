@@ -1,0 +1,75 @@
+body{
+    margin: 500;
+    padding: 10px   ;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.container{
+    background-color:azure;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 100px;
+    box-sizing: border-box;
+    box-shadow:5px 6px 6px rgb(141,140,140);
+}
+.brandlogo {
+    background-image: url('../image/download (1).png');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: auto ;
+    border-radius: 50%;
+}
+.brad title{
+    color:rgb(141,140,140);
+    font-size: 24px;
+    font-weight:bolder;
+    margin-bottom: 20px;
+
+}
+input{
+    text-align: left;
+    margin-top: 10px;
+}
+input,label,button{
+    display: block;
+    width: 100%;
+}
+label{
+    display: block;
+    margin: 11px 0 5px;
+    text-align: left;
+
+}
+input{
+    background-color: white;
+    padding: 10px;
+    height: 25px;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 5px 6px 6px rgb(141,140,141);
+    
+
+
+}
+button{
+    margin-top: 21px;
+    border-radius: 15px;
+    background-color:#ff6347;
+    padding: 9px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+}
+button:hover{
+    background-color: #ff4500;
+}
+ 
